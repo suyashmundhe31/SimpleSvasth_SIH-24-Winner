@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f4f7;
+    /* overflow: hidden;  Aastha ne bola nikalne */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.left-container {
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container h1 {
+    font-size: 36px;
+    color: #008073;
+}
+
+.left-container p {
+    margin: 20px 122px;
+    font-size: 25px;
+    color: rgba(33, 72, 39, 1);
+    text-align: center;
+}
+
+.left-container .tagline {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgba(33, 72, 39, 1);
+    text-align: center;
+}
+
+.left-container button {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    background-color: #d4efdf;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(45, 81, 44, 1);
+    align-items: center;
+}
+
+.left-container button .chatbot {
+    margin-top: 10px;
+}
+
+.left-container button img {
+    background-color: rgba(239, 249, 228, 1);
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.left-container button {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.left-container button:hover {
+    transform: scale(1.05);
+}
+
+.right-container {
+    flex: 1;
+    padding: 75px;
+    background-color: #d4efdf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.right-container p {
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tabs div {
+    padding: 10px 40px;
+    cursor: pointer;
+    background-color: #d6f5e8;
+    border-radius: 25px 25px 25px 25px;
+    margin-right: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.tabs .active {
+    background-color: #d4efdf;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tabs .tab1 {
+    color: rgba(20, 37, 14, 1);
+    background-color: rgba(211, 238, 202, 1);
+}
+
+.tabs .tab2 {
+    color: rgba(14, 30, 37, 1);
+    background-color: rgba(170, 205, 212, 1);
+}
+
+.tabs .tab3 {
+    color: rgba(39, 40, 27, 1);
+    background-color: rgba(233, 230, 196, 1);
+}
+
+.form-container {
+    width: 400px;
+    background-color: rgba(223, 242, 170, 1);
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forminputs {
+    background-color: rgba(240, 245, 225, 1);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #e6f7d4;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.form-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    margin: 5px;
+}
+
+.register-btn {
+    width: 39%;
+    padding: 5px;
+    background-color: rgba(223, 242, 170, 1);
+    color: rgba(30, 30, 30, 1);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 60%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.register-btn:hover {
+    transform: scale(1.05);
+}
+
+.options .activity {
+    background-color: rgba(223, 242, 170, 1);
+    border-style: none;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.options .activity.active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+    bottom: -5px;
+    left: 0;
+    border-radius: 2px;
+}
+
+.help {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+}
+
+.help button {
+    background-color: rgba(240, 245, 225, 1);
+    color: rgba(0, 0, 0, 1);
+    padding: 15px 30px;
+    border-radius: 25px 25px 25px 25px;
+    border-style: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.help button:hover {
+    transform: scale(1.05);
+}
+
+/* Previous CSS remains the same, adding chatbot-specific styles at the end */
+
+.chatbot-modal:active {
+    cursor: grabbing;
+}
+  
+.chatbot-modal {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    width: 450px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    cursor: grab; 
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+.chatbot-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(223, 242, 170, 1);
+    color: #333;
+    border-radius: 8px 8px 0 0;
+}
+
+.chatbot-messages {
+    flex-grow: 1;
+    max-height: 420px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.chatbot-input {
+    display: flex;
+    padding: 10px 0;
+    gap: 10px;
+    border-top: 1px solid #ccc;
+}
+  
+.user-message {
+    text-align: right;
+    background-color: rgba(223, 242, 170, 1);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+  
+.bot-message {
+    text-align: left;
+    background-color: rgba(240, 245, 225, 1);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.userLog-RegBut {
+    background-color: rgba(223, 242, 170, 1);
+    color: black;
+    padding: 15px 120px;
+    border-radius: 25px 25px 25px 25px;
+    border-style: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    font-weight: bold;
+    margin-left: 12%;
+}
+
+.userLog-RegBut:hover {
+    transform: scale(1.05);
+}
+
+.botSent {
+    width: 30%;
+    padding: 5px;
+    background-color: rgba(223, 242, 170, 1);
+    color: rgba(30, 30, 30, 1);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.botInput {
+    width: 115%;
+    padding: 10px;
+    background-color: rgba(223, 242, 170, 1);
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 1%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+
+.botClose {
+    width: 12%;
+    background-color: rgba(223, 242, 170, 1);
+    border: none;
+    font-weight: bolder;
+}
+
+.chatbot-header span{
+    font-size: larger;
+    font-weight: bolder;
+}

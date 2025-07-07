@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.opdSc-body {
+    margin: 0;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.opdSc-form-container {
+    width: 100%;
+    height: 60vh;
+}
+
+.opdSc-forminputs {
+    background-color: rgba(225, 239, 245, 1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100vh;
+}
+
+.opdSc-form-group {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.opdSc-form-row {
+    display: flex;
+    justify-content: start;
+    gap: 7%; 
+}
+
+.opdSc-form-group input,select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.opdSc-form-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(94, 160, 209, 1);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.opdSc-activity {
+    background-color:  rgba(138, 183, 217, 0.7);
+    border-style: none;
+    color: rgba(4, 62, 95, 1);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 3px;
+}
+
+.opdSc-options {
+    background-color: rgba(94, 160, 209, 0.7);
+}
+
+.opdSc-title {
+    color: rgba(4, 62, 95, 1);
+    margin-left: 2%;
+}
+table {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: fit-content;
+    max-height: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    display: table-header-group;
+    position: sticky;
+    top: 0;
+    background-color: #01334d;
+    z-index: 2; /* Ensures that the header is above the table body */
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(99, 208, 232, 1);
+}
+
+th {
+    background-color: #01334d;
+    color: white;
+}
+
+td {
+    background-color: #f7fbff;
+}
+
+
+.opdSc-vacant {
+    color: green;
+    font-weight: bold;
+}
+
+.opdSc-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.opdSc-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.opdSc-update-btn {
+    background-color: #01334d;
+    color: white;
+}
+
+.opdSc-delete-btn {
+    background-color: #333;
+    color: white;
+}
+
+.opdSc-status-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.opdSc-status-input input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.opdSc-status-input button {
+    background-color: #01334d;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+td:not(:last-child), th:not(:last-child) {
+border-right: 2px solid rgba(149, 208, 233, 1);
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-content p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .modal-content button {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background: #0056b3;
+  }
+  

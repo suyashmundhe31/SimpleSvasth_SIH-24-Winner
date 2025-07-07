@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.hospMap-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  color: white;
+}
+
+.hospMap-map-section {
+  flex: 3;
+  position: relative;
+}
+
+.hospMap-info-section {
+  flex: 1;
+  background-color:  rgba(219, 232, 210, 1);
+  padding: 20px;
+  box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure it fills the container */
+}
+
+.hospMap-logo h1 {
+  color: #1bbfa8;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hospMap-search-form h3, .hospMap-hospital-list h3 {
+  color: rgba(75, 155, 164, 1);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hospMap-search-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #e0e0e0;
+  font-size: 14px;
+}
+
+.hospMap-hospital-list {
+  margin-top: 20px;
+  flex-grow: 1;
+  overflow-y: auto; /* Enable vertical scrolling for the hospital list */
+}
+
+.hospMap-hospital-card {
+  background-color: rgba(207, 232, 213, 1);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hospMap-hospital-card p {
+  margin: 5px 0;
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+}
+
+.hospMap-hospital-card h4 {
+  margin: 5px 0;
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+}
+
+#map {
+  height: 100%; /* Ensure the map fills the available space */
+}
+
+#search-location {
+  background-color: rgba(75, 155, 164, 1);
+  padding: 5px 50px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+}
+
+#hospital-list {
+  margin-top: 10px;
+  list-style-type: none;
+  padding: 0;
+}

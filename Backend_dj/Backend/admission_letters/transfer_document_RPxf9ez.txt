@@ -1,0 +1,3 @@
+Transfer document for patient DIya 
+                from bed 6-B009 to bed 8-B001
+                Transfer Date: 2024-12-11

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.addBed-body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(225, 239, 245, 1); 
+    min-height: 100vh; 
+    overflow: hidden;
+}
+
+.addBed-form-container {
+    width: 100%;
+}
+
+.addBed-forminputs {
+    background-color: rgba(225, 239, 245, 1);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.addBed-form-group {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 2%; 
+}
+
+.addBed-form-row {
+    display: flex;
+    justify-content: start;
+    gap: 7%;
+}
+
+.addBed-form-group input, .addBed-form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.addBed-form-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(94, 160, 209, 1);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.addBed-register-btn {
+    width: 40%;
+    padding: 10px;
+    background-color: rgba(81, 134, 173, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 30%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.addBed-register-btn:hover {
+    transform: scale(1.05);
+}
+
+.addBed-activity {
+    background-color: rgba(138, 183, 217, 0.7);
+    border-style: none;
+    color: rgba(4, 62, 95, 1);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 3px;
+}
+
+.addBed-options {
+    background-color: rgba(94, 160, 209, 0.7);
+    padding: 5px;
+}
+
+.addBed-title {
+    color: rgba(4, 62, 95, 1);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+.addBed-wardDetails {
+    width: 225%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}

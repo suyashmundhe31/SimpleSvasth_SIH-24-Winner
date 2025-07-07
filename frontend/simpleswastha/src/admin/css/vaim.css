@@ -1,0 +1,169 @@
+.vaim-body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(225, 239, 245, 1); 
+    min-height: 100vh; 
+    overflow: hidden;
+}
+
+.vaim-activity {
+    background-color: rgba(138, 183, 217, 0.7);
+    border-style: none;
+    color: rgba(4, 62, 95, 1);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 3px;
+}
+
+.vaim-options {
+    background-color: rgba(94, 160, 209, 0.7);
+    padding: 5px;
+}
+
+.vaim-body{
+    background-color: rgba(225, 239, 245, 1);
+    font-family: "Poppins", sans-serif;
+}
+
+.vaim-title , .vaim-sub-titles span{
+    color: rgba(4, 62, 95, 1);
+    font-weight: bolder;
+    margin-left: 2%;
+}
+
+.vaim-sub-titles p{
+    color: rgba(36, 147, 210, 1);
+    font-size: smaller;
+    margin-top: 0;
+    margin-left: 2%;
+}
+
+.vaim-form-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(94, 160, 209, 1);
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.vaim-form-group input {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.vaim-form-group {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.vaim-form-row {
+    display: flex;
+    justify-content: start;
+}
+
+.vaim-sub-titles h3{
+    color: rgba(4, 62, 95, 1);
+    margin-left: 2%;
+}
+
+.vaim-form-container button{
+    background-color: rgba(85, 154, 183, 1);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.vaim-inputs input{
+    width: 47%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+    margin: 5px;
+}
+
+.vaim-form-container{
+    background-color: white;
+    height: 80vh;
+    border-radius: 25px ;
+    margin: 2%;
+}
+
+.vaim-addCat{
+    margin: 1%;
+    margin-bottom: 0;
+}
+
+.vaim-form-div{
+    background-color: rgba(225, 239, 245, 1);
+    margin: 2%;
+    padding: 2%;
+    height: 60vh;
+    border-radius: 25px ;
+}
+
+.vaim-save{
+    background-color: rgba(4, 62, 95, 1);
+    color: white;
+    margin-left: 2%;
+    padding: 5px 70px;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    font-weight: 700;
+    font-size:medium;
+    margin-top: 3%;
+    margin-left: 43%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 5%;
+}
+
+.vaim-save:hover {
+    transform: scale(1.05);
+}
+
+#hosp_address{
+    width: 205%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.vaim-main-container{
+    padding-top: 1%;
+}
+
+.vaim-form-group input,
+.vaim-form-group select {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}

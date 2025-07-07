@@ -1,0 +1,19 @@
+.bedlist-body{
+    background-color: rgba(225, 239, 245, 1); 
+}
+
+.bedlist-submit-btn{
+    width: 10%;
+    padding: 10px;
+    background-color: rgba(81, 134, 173, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 45%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}

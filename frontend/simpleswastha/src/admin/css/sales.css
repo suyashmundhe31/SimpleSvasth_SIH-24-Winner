@@ -1,0 +1,146 @@
+.sales-body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(225, 239, 245, 1); 
+    min-height: 100vh; 
+    overflow: hidden;
+}
+
+.sales-activity {
+    background-color: rgba(138, 183, 217, 0.7);
+    border-style: none;
+    color: rgba(4, 62, 95, 1);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 3px;
+}
+
+.sales-options {
+    background-color: rgba(94, 160, 209, 0.7);
+    padding: 5px;
+}
+
+.sales-form {
+    background-color: rgba(225, 239, 245, 1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    margin-right: 3%;
+    padding-bottom: 0;
+}
+
+form h3 {
+    color: rgba(4, 62, 95, 1);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+.sales-form-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(94, 160, 209, 1);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sales-form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.sales-form-group {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.sales-form-row {
+    display: flex;
+    justify-content: start;
+    gap: 5%;
+}
+
+.sales-register-btn {
+    width: 18%;
+    padding: 11px;
+    background-color: rgba(81, 134, 173, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 42px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 2%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.sales-register-btn:hover {
+    transform: scale(1.05);
+}
+
+.sales-group {
+    margin-bottom: 20px;
+    width: 20%;
+    margin-left: 2%;
+}
+
+.sales-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(94, 160, 209, 1);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sales-group input {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.sales-sub-btn{
+    width: 18%;
+    padding: 11px;
+    background-color: rgba(81, 134, 173, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 42px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 2%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.sales-form-group select {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.userReg-body{
+    background-color:  #d4efdf;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+}
+
+.userReg-title , .userReg-sub-titles span{
+    color: black;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.userReg-sub-titles p{
+    color: rgba(36, 147, 210, 1);
+    font-size: smaller;
+    margin-top: 0;
+    margin-left: 2%;
+}
+
+.userReg-form-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.userReg-form-group input,
+.userReg-form-group select {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.userReg-form-group {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.userReg-form-row {
+    display: flex;
+    justify-content: start;
+}
+
+.userReg-sub-titles h3{
+    color: black;
+    margin-left: 2%;
+}
+
+.userReg-form-container button{
+    background-color: rgba(85, 154, 183, 1);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.userReg-inputs input{
+    width: 47%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+    margin: 5px;
+}
+
+.userReg-form-container{
+    background-color: white;
+    height: 80vh;
+    border-radius: 25px ;
+    margin: 2%;
+}
+
+.userReg-addCat{
+    margin: 1%;
+    margin-bottom: 0;
+}
+
+.userReg-form-div{
+    background-color: rgba(225, 239, 245, 1);
+    margin: 2%;
+    padding: 2%;
+    height: 60vh;
+    border-radius: 25px ;
+}
+
+.userReg-save{
+    background-color: rgba(223, 242, 170, 1);
+    color: black;
+    margin-left: 2%;
+    padding: 5px 70px;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    font-weight: 700;
+    font-size:medium;
+    margin-top: 3%;
+    margin-left: 43%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 5%;
+}
+
+.userReg-save:hover {
+    transform: scale(1.05);
+}
+
+#hosp_address{
+    width: 205%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.userReg-main-container{
+    padding-top: 2%;
+}

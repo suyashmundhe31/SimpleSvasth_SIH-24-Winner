@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.bedCat-body {
+    background-color: #EEEEE7;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+.bedCat-b3{
+    color: rgba(0, 0, 0, 1);
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.bedCat-card{
+    background-color: rgba(250, 250, 250, 1);
+    width: 23%;
+    border-radius: 15px;
+    justify-content: center;
+    margin-top: 1.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.bedCat-bed-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bedCat-top{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px;
+}
+.bedCat-top h2{
+    margin: 0;
+}
+.bedCat-beds{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:rgba(122, 165, 206, 1) ;
+    padding: 2px;
+    border-radius: 25px;
+}
+.bedCat-middle{
+    position: relative;
+}
+.bedCat-avaBed{
+    padding: 5px;
+}
+.bedCat-totalBed{
+    background-color: rgba(217, 217, 217, 1);
+    padding: 6px;
+    border-radius: 25px;
+}
+.bedCat-totalBed span img , .bedCat-avaBed span img{
+    width: 10px;
+}
+
+.bedCat-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.bedCat-req button{
+    background-color: rgba(45, 130, 209, 1);
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+}
+
+.bedCat-details button{
+    background-color: #d6d1d1;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+}
+.bedCat-top span{
+    color: rgba(79, 137, 191, 1);
+}
+
+/* The Modal (background) */
+.bedCat-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+/* Modal Content */
+.bedCat-modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 25px;
+    margin-top: 0;
+}
+
+/* Close button */
+.bedCat-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.bedCat-close:hover,
+.bedCat-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bedCat-form-group {
+    margin-bottom: 15px;
+    width: 35%
+}
+
+.bedCat-form-group label {
+    margin-bottom: 5px;
+}
+
+.bedCat-form-group input,
+.bedCat-form-group select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.bedCat-form-group button {
+    background-color: rgba(74, 123, 139, 1);
+    color: white;
+    padding: 10px 150px;
+    border-radius: 25px 25px 25px 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 100%;
+    margin-top: 5%;
+}
+
+.bedCat-details-content {
+    padding: 10px;
+    line-height: 1.6;
+}
+.bedCat-form-row {
+    display: flex;
+    justify-content: start;
+    gap: 1%; 
+    margin-top: 1%;
+}
+.bedCat-boldFont{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.bedCat-lightFont{
+    font-size: 13px;
+    color: rgba(59, 59, 59, 1);
+    margin-bottom: 3%;
+}

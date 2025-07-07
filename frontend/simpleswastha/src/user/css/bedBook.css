@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.bedBook-body{
+    background-color: #EEEEE7;
+    font-family: "Poppins", sans-serif;
+}
+
+.bedBook-search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin-left: 10px;
+    width: 98%;
+}
+
+.bedBook-search-bar input[type="text"] {
+    flex-grow: 1;
+}
+
+.bedBook-lowerSection {
+    background-color: rgba(217, 217, 217, 1);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bedBook-hospital-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.bedBook-hospital-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 3%;
+}
+
+.bedBook-hospital-card img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.bedBook-hospital-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.bedBook-hospital-info h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+
+.bedBook-hospital-info p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.bedBook-hospital-info .bedBook-btn {
+    padding: 10px 50px;
+    background-color:#d6d1d1;
+    border: none;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-right: 5%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+.bedBook-titles {
+    margin-left: 2.5%;
+}
+
+body section {
+    margin-top: 1.5%;
+}
+
+.bedBook-emergency {
+    padding: 12px 60px;
+    background-color: rgba(169, 60, 60, 1);
+    border: none;
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+    margin-top: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 10Px;
+    transition: transform 0.3s ease;
+}
+
+.bedBook-emergency:hover {
+    transform: scale(1.05);
+}
+
+.bedBook-btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.bedBook-search {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.bedBook-search img {
+    width: 2.5%;
+}
+
+.bedBook-search input {
+    width: 100%;
+}
+
+.bedBook-search-bar {
+    width: 100%;
+}

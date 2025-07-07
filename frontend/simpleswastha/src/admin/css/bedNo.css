@@ -1,0 +1,149 @@
+
+
+.bedNo-container {
+    display: flex;
+    background-color: #B0CAD1;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.bedNo-active {
+    background-color: #447F99;
+}
+
+.bedNo-content {
+    background-color: rgba(94, 160, 209, 0.7);
+    padding: 2%;
+    border-radius: 0 0 10px 10px;
+    padding-top: 0.5%;
+}
+
+.bedNo-content h3 {
+    color: rgba(4, 62, 95, 1);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.bedNo-activity {
+    background-color:  rgba(138, 183, 217, 0.7);
+    border-style: none;
+    color: rgba(4, 62, 95, 1);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 3px;
+}
+
+.bedNo-requests {
+    background-color: rgba(225, 239, 245, 1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80vh;
+}
+
+.bedNo-request {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fb;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.bedNo-request .bedNo-info {
+    max-width: 70%;
+}
+
+.bedNo-request button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.bedNo-request .bedNo-approve {
+    background-color: #2d8dcb;
+    color: white;
+    padding: 10px 45px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.bedNo-request .bedNo-disapprove {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.bedNo-request .bedNo-approve:hover , 
+.bedNo-request .bedNo-disapprove:hover , 
+.bedNo-request .bedNo-view-doc:hover ,
+.bedNo-request button:hover
+{
+    transform: scale(1.05);
+}
+
+.bedNo-request .bedNo-view-doc {
+    background-color: rgba(80, 229, 95, 1);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bedNo-actions{
+    width: 25%;
+}
+
+.bedNo-activity {
+    background-color: rgba(138, 183, 217, 0.7);
+    border-style: none;
+    color: rgba(4, 62, 95, 1);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 3px;
+}
+
+.bedNo-options {
+    background-color: rgba(94, 160, 209, 0.7);
+    padding: 5px;
+}
+
+.status-pending {
+    color: #f59e0b;
+    font-weight: bold;
+  }
+  
+  .status-approved {
+    color: #10b981;
+    font-weight: bold;
+  }
+  
+  .status-rejected {
+    color: #ef4444;
+    font-weight: bold;
+  }

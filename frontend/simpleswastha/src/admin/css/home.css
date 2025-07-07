@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+  
+.home-body {
+    background-color: rgba(225, 239, 245, 1);
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+  
+.home-main-container {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: url("../img/background_img.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 83%;
+    height: 317px;
+    overflow: hidden;
+    border-radius: 33px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 4%;
+}
+  
+.home-flex-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+  
+.home-text {
+    position: relative;
+    z-index: 2;
+    color: #041E44;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 50%;
+    margin: 5%;
+}
+  
+.home-overlay-image {
+    height: 340px;
+    width: 440px;
+    object-fit: cover;
+    z-index: 3;
+}
+  
+.home-sub-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px;
+    height: 32vh;
+    margin: 7%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+  
+.home-option-box {
+    position: relative;
+    width: 381px;
+    height: 167px;
+    border-radius: 33px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.home-icon-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 164px;
+    height: 167px;
+    border-radius: 33px;
+}
+  
+.home-icon-option img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+  
+.home-text-box {
+    position: relative;
+    padding: 20px;
+    font-size: 16px;
+    z-index: 2;
+}
+  
+.home-option-box:hover {
+    transform: scale(1.05);
+}
+  
+.home-arrow-icon {
+    position: relative;
+    justify-content: flex-end;
+    align-items: baseline;
+    bottom: -60px;
+    left: -20px;
+    z-index: 3;
+}
+  
+.home-main-container img {
+    position: relative;
+}
+
+.home-bedNav{
+    height: 2%;
+}
+  

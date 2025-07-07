@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.goveSc-body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(219, 232, 210, 1);; 
+    min-height: 100vh; 
+    overflow: hidden;
+}
+
+.goveSc-form-container {
+    width: 100%;
+}
+
+.goveSc-forminputs {
+    background-color:  rgba(219, 232, 210, 1);
+    width: 100%;
+}
+
+.goveSc-form-group {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 2%; 
+}
+
+.goveSc-form-row {
+    display: flex;
+    justify-content: start;
+}
+
+.goveSc-form-group input, .goveSc-form-group textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.goveSc-form-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(94, 209, 140, 1);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.goveSc-register-btn {
+    width: 20%;
+    padding: 10px;
+    background-color: rgba(81, 173, 100, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 3%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.goveSc-register-btn:hover {
+    transform: scale(1.05);
+}
+
+.goveSc-activity {
+    background-color: rgba(138, 183, 217, 0.7);
+    border-style: none;
+    color: rgba(4, 62, 95, 1);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 3px;
+}
+
+.goveSc-options {
+    background-color: rgba(94, 160, 209, 0.7);
+    padding: 5px;
+}
+
+.goveSc-title {
+    color:rgba(4, 95, 42, 1);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+.goveSc-wardDetails {
+    width: 225%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.goveSc-search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin-left: 10px;
+    width: 98%;
+}
+
+.goveSc-search-bar input[type="text"] {
+    flex-grow: 1;
+}
+
+.goveSc-lowerSection {
+    background-color: rgba(187, 214, 194, 1);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.goveSc-hospital-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.goveSc-hospital-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 3%;
+}
+
+.goveSc-hospital-card img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.goveSc-hospital-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.goveSc-hospital-info h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+
+.goveSc-hospital-info p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.goveSc-hospital-info .goveSc-btn {
+    padding: 10px 50px;
+    background-color:rgba(216, 224, 185, 1);
+    border: none;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 380%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+.goveSc-titles {
+    margin-left: 2.5%;
+}
+
+.goveSc-btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.goveSc-search {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.goveSc-search img {
+    width: 2.5%;
+}
+
+.goveSc-search input {
+    width: 100%;
+}
+
+.goveSc-search-bar {
+    width: 100%;
+}
+
+.goveSc-form-group select {
+    width: 95%; /* Ensure it takes the same width as input fields */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+    appearance: none; /* Remove default browser dropdown styles */
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="%23666"%3E%3Cpath d="M5.5 7.5l4 4 4-4h-8z"/%3E%3C/svg%3E'); /* Dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Arrow positioning */
+    background-size: 14px;
+}
+
+/* Ensure dropdowns align visually with inputs */
+.goveSc-form-row .goveSc-form-group select {
+    margin: 0; /* Align with other input fields */
+}

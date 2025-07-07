@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.reg-body{
+    background-color: rgba(225, 239, 245, 1);
+    font-family: "Poppins", sans-serif;
+}
+
+.reg-title , .reg-sub-titles span{
+    color: rgba(4, 62, 95, 1);
+    font-weight: bolder;
+    margin-left: 2%;
+}
+
+.reg-sub-titles p{
+    color: rgba(36, 147, 210, 1);
+    font-size: smaller;
+    margin-top: 0;
+    margin-left: 2%;
+}
+
+.reg-form-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(94, 160, 209, 1);
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.reg-form-group input {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.reg-form-group {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.reg-form-row {
+    display: flex;
+    justify-content: start;
+}
+
+.reg-sub-titles h3{
+    color: rgba(4, 62, 95, 1);
+    margin-left: 2%;
+}
+
+.reg-form-container button{
+    background-color: rgba(85, 154, 183, 1);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.reg-inputs input{
+    width: 47%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+    margin: 5px;
+}
+
+.reg-form-container{
+    background-color: white;
+    height: 80vh;
+    border-radius: 25px ;
+    margin: 2%;
+}
+
+.reg-addCat{
+    margin: 1%;
+    margin-bottom: 0;
+}
+
+.reg-form-div{
+    background-color: rgba(225, 239, 245, 1);
+    margin: 2%;
+    padding: 2%;
+    height: 60vh;
+    border-radius: 25px ;
+}
+
+.reg-save{
+    background-color: rgba(4, 62, 95, 1);
+    color: white;
+    margin-left: 2%;
+    padding: 5px 70px;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    font-weight: 700;
+    font-size:medium;
+    margin-top: 3%;
+    margin-left: 43%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 5%;
+}
+
+.reg-save:hover {
+    transform: scale(1.reg-05);
+}
+
+#hosp_address{
+    width: 205%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.reg-main-container{
+    padding-top: 1%;
+}

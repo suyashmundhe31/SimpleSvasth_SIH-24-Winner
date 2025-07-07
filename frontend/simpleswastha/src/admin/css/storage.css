@@ -1,0 +1,170 @@
+.storage-body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(225, 239, 245, 1); 
+    min-height: 100vh; 
+    overflow: hidden;
+}
+
+.storage-activity {
+    background-color: rgba(138, 183, 217, 0.7);
+    border-style: none;
+    color: rgba(4, 62, 95, 1);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 3px;
+}
+
+.storage-options {
+    background-color: rgba(94, 160, 209, 0.7);
+    padding: 5px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(99, 208, 232, 1);
+}
+
+th {
+    background-color: #01334d;
+    color: white;
+}
+
+td {
+    background-color: #f7fbff;
+}
+
+.storage-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.storage-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.storage-update-btn {
+    background-color:  rgba(94, 160, 209, 0.7);
+    color: #01334d;
+}
+
+.storage-delete-btn {
+    background-color:  rgba(94, 160, 209, 0.7);
+    color:#01334d;
+}
+
+.storage-status-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.storage-status-input input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* .storage-status-input button {
+    background-color: #01334d;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+td:not(:last-child), th:not(:last-child) {
+border-right: 2px solid rgba(149, 208, 233, 1);
+}
+
+.storage-form-container {
+    width: 100%;
+    height: 60vh;
+}
+
+.storage-forminputs {
+    background-color: rgba(225, 239, 245, 1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100vh;
+}
+
+.storage-form-group {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.storage-form-row {
+    display: flex;
+    justify-content: start;
+    gap: 7%; 
+}
+
+.storage-form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.storage-form-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(94, 160, 209, 1);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.storage-form-group select {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.storage-save{
+    background-color: rgba(4, 62, 95, 1);
+    color: white;
+    margin-left: 2%;
+    padding: 5px 70px;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    font-weight: 700;
+    font-size:medium;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.storage-save:hover {
+    transform: scale(1.05);
+}

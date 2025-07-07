@@ -1,0 +1,3 @@
+Transfer document for patient Ashwin 
+                from bed 6-B005 to bed 7-B001
+                Transfer Date: 2024-12-11

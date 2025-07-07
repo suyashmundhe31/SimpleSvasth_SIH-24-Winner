@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.userGoveSc-body {
+    font-family: "Poppins", sans-serif;
+    background-color:  #EEEEE7; 
+    min-height: 100vh; 
+    overflow: hidden;
+}
+
+.userGoveSc-form-container {
+    width: 100%;
+}
+
+.userGoveSc-forminputs {
+    background-color:   #EEEEE7;
+    width: 100%;
+}
+
+.userGoveSc-form-group {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 2%; 
+}
+
+.userGoveSc-form-row {
+    display: flex;
+    justify-content: start;
+}
+
+.userGoveSc-form-group input, .userGoveSc-form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.userGoveSc-form-group label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(29, 31, 29, 1);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.userGoveSc-register-btn {
+    width: 20%;
+    padding: 10px;
+    background-color:  rgba(216, 224, 185, 1);
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 3%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.userGoveSc-register-btn:hover {
+    transform: scale(1.05);
+}
+
+.userGoveSc-activity {
+    background-color: rgba(138, 183, 217, 0.7);
+    border-style: none;
+    color: rgba(4, 62, 95, 1);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 3px;
+}
+
+.userGoveSc-options {
+    background-color: rgba(94, 160, 209, 0.7);
+    padding: 5px;
+}
+
+.userGoveSc-title {
+    color:black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+.userGoveSc-wardDetails {
+    width: 225%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.userGoveSc-search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin-left: 10px;
+    width: 98%;
+}
+
+.userGoveSc-search-bar input[type="text"] {
+    flex-grow: 1;
+}
+
+.userGoveSc-lowerSection {
+    background-color:  #cfd0cf;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.userGoveSc-schemes-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.userGoveSc-schemes-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 3%;
+}
+
+.userGoveSc-schemes-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.userGoveSc-schemes-info h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+
+.userGoveSc-schemes-info p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.userGoveSc-schemes-info .userGoveSc-btn {
+    padding: 10px 50px;
+    background-color:rgba(216, 224, 185, 1);
+    border: none;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 680%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+.userGoveSc-titles {
+    margin-left: 2.5%;
+}
+
+.userGoveSc-btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.userGoveSc-search {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.userGoveSc-search img {
+    width: 2.5%;
+}
+
+.userGoveSc-search input {
+    width: 100%;
+    border: none;
+}
+
+.userGoveSc-search-bar {
+    width: 100%;
+}
+
+.userGoveSc-form-group select {
+    width: 95%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    border-style: none;
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="%23666"%3E%3Cpath d="M5.5 7.5l4 4 4-4h-8z"/%3E%3C/svg%3E'); 
+    background-repeat: no-repeat;
+    background-position: right 10px center; 
+    background-size: 14px;
+}
+
+.userGoveSc-form-row .userGoveSc-form-group select {
+    margin: 0; 
+}
+
+.userGoveSc-card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.userGoveSc-card p{
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.userGoveSc-card h3{
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+
+.userGoveSc-register-btn{
+    padding: 10px 10px;
+    background-color: #d6d1d1;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+    margin-top: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 79%;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 25px;
+    margin-top: 0;
+    position: relative;
+}
+
+/* Close button */
+.govScmodal-close-btn {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* Read More Button */
+.read-more-btn {
+    display: inline-block;
+    background-color: rgba(74, 123, 139, 1);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.modal-content span{
+    padding-right: 3%;
+}
+
+.modal-content samp{
+    font-size: large;
+}
+
+.govScmodal-close-btn:hover{
+    color: black;
+}

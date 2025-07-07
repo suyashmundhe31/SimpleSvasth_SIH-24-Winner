@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.goveHome-body {
+    background-color: rgba(219, 232, 210, 1);
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: white;
+}
+
+.goveHome-main-container {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image:url("../img/background_img.png") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 83%;
+    height: 317px;
+    overflow: hidden;
+    border-radius: 33px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 4%;
+}
+
+.goveHome-flex-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.goveHome-text {
+    position: relative;
+    z-index: 2;
+    color: #041E44;
+    padding: 20px; 
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none; 
+    width: 50%;
+    margin: 5%;
+    text-align: center;
+}
+
+.goveHome-text h3 {
+    position: relative;
+    z-index: 2;
+    color: #041E44;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none; 
+    width: 96%;
+    text-align: center;
+}
+
+.goveHome-overlay-image {
+    height: 340px;
+    width: 440px;
+    object-fit: cover;
+    z-index: 3; 
+}
+
+.goveHome-sub-container {
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    padding: 20px;
+    height: 32vh;
+    margin: 7%;
+    margin-top: 2%;
+    margin-bottom:0% ;
+    padding-bottom: 0%;
+
+}
+
+.goveHome-option-box {
+  position: relative;
+  width: 381px;
+  height: 167px;
+  border-radius: 33px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.goveHome-icon-option {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 164px; 
+    height: 167px; 
+    border-radius: 33px;
+}
+
+.goveHome-icon-option img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain; 
+}
+
+.goveHome-text-box {
+    position: relative;
+    padding: 20px;
+    margin-top: -20px;
+    font-size: 16px;
+    z-index: 2;
+}
+
+.goveHome-option-box:hover {
+    transform: scale(1.05);
+}
+
+.goveHome-arrow-icon {
+    position: relative;
+    justify-content: flex-end;
+    align-items: baseline;
+    bottom: -60px;
+    left: -20px;
+    z-index: 3;
+}
+
+.goveHome-main-container img {
+    position: relative;
+}
+
+.goveHome-body {
+  position: relative;
+}
+
+.notification-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.notification-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.notification-offcanvas {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background: #f8f9fa;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  animation: slideIn 0.3s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    right: -300px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification-header h3 {
+  margin: 0;
+}
+
+.notification-header img {
+  width: 20px;
+  height: 20px;
+}
+
+.close-notification {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.notification-body {
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+.notification-box {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.notification-box h4 {
+  margin: 0 0 5px 0;
+}
+
+.notification-box p {
+  margin: 0 0 10px 0;
+}
+
+.mark-as-read {
+  padding: 5px 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
